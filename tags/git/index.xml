@@ -24,5 +24,16 @@ Tạo site Ở đây mình sẽ dùng tool vừa cài và tạo một site mới
 Chạy lệnh này</description>
     </item>
     
+    <item>
+      <title>Git submodule là cái gì ?</title>
+      <link>http://example.org/post/git-submodule/</link>
+      <pubDate>Sun, 30 Dec 2018 12:04:58 +0700</pubDate>
+      
+      <guid>http://example.org/post/git-submodule/</guid>
+      <description>Nó đơn giản chỉ là quản lí nhiều repo trong cùng một thư mục, commit mà không ảnh hưởng tới phần khác ví dụ
+content -&amp;gt; repo XYZ -- blog -&amp;gt; repo A -- website -&amp;gt; repo B -- mail -&amp;gt; repo C Bây giờ chỉ cần link repo tới thư mục tương ứng là có thể commit không ảnh hưởng gì đến repo chính
+git submodule add -b master git@github.</description>
+    </item>
+    
   </channel>
 </rss>

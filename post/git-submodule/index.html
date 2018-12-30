@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <meta charset="utf-8"><script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "http://example.org/"
+        },
+        "articleSection" : "post",
+        "name" : "Git submodule là cái gì ?",
+        "headline" : "Git submodule là cái gì ?",
+        "description" : "Text about the site""
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2018",
+        "datePublished": "2018-12-30 12:04:58 +0700 ICT",
+        "dateModified" : "2018-12-30 12:04:58 +0700 ICT",
+        "url" : "/post/git-submodule/",
+        "wordCount" : "72",
+        "keywords" : [ "git","Blog" ]
+    }
+</script>
+<title>
+    Git submodule là cái gì ? &ndash; QuyenCV Blog
+</title><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="favicon.ico">
+
+
+<meta itemprop="name" content="Git submodule là cái gì ?">
+<meta itemprop="description" content="Nó đơn giản chỉ là quản lí nhiều repo trong cùng một thư mục, commit mà không ảnh hưởng tới phần khác ví dụ
+content -&gt; repo XYZ -- blog -&gt; repo A -- website -&gt; repo B -- mail -&gt; repo C Bây giờ chỉ cần link repo tới thư mục tương ứng là có thể commit không ảnh hưởng gì đến repo chính
+git submodule add -b master git@github.">
+
+
+<meta itemprop="datePublished" content="2018-12-30T12:04:58&#43;07:00" />
+<meta itemprop="dateModified" content="2018-12-30T12:04:58&#43;07:00" />
+<meta itemprop="wordCount" content="72">
+
+
+
+<meta itemprop="keywords" content="git," />
+
+<meta property="og:title" content="Git submodule là cái gì ?" />
+<meta property="og:description" content="Nó đơn giản chỉ là quản lí nhiều repo trong cùng một thư mục, commit mà không ảnh hưởng tới phần khác ví dụ
+content -&gt; repo XYZ -- blog -&gt; repo A -- website -&gt; repo B -- mail -&gt; repo C Bây giờ chỉ cần link repo tới thư mục tương ứng là có thể commit không ảnh hưởng gì đến repo chính
+git submodule add -b master git@github." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/post/git-submodule/" /><meta property="article:published_time" content="2018-12-30T12:04:58&#43;07:00"/>
+<meta property="article:modified_time" content="2018-12-30T12:04:58&#43;07:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git submodule là cái gì ?"/>
+<meta name="twitter:description" content="Nó đơn giản chỉ là quản lí nhiều repo trong cùng một thư mục, commit mà không ảnh hưởng tới phần khác ví dụ
+content -&gt; repo XYZ -- blog -&gt; repo A -- website -&gt; repo B -- mail -&gt; repo C Bây giờ chỉ cần link repo tới thư mục tương ứng là có thể commit không ảnh hưởng gì đến repo chính
+git submodule add -b master git@github."/>
+
+
+<link rel="alternate" href="http://example.org/index.xml" type="application/rss+xml" title="QuyenCV Blog"/>
+
+
+
+
+<link rel="stylesheet" href="/css/vendor.min.d97af55e9aa771ef29869d68670960ae41bd6a7a5886ce4873186ca6cf0fc707.css" integrity="sha256-2Xr1Xpqnce8php1oZwlgrkG9anpYhs5Icxhsps8Pxwc=">
+<body><nav class="navbar navbar-light navbar-expand-lg bg-white border-bottom shadow-sm">
+        
+    <div class="container">
+        <a class="navbar-brand text-primary" href="/">QuyenCV Blog</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+
+            <ul class="navbar-nav mr-auto">
+                
+                
+            </ul>
+
+            
+        </div>
+    </div>
+</nav>
+<main role="main">
+
+    <div class="container mt-3 mb-3">
+
+
+<div class="card">
+
+    <div class="card-body">
+        <h1 class="card-title"><a href="/post/git-submodule/">Git submodule là cái gì ?</a></h1>
+        <h6 class="card-subtitle mb-2 text-muted">
+            30.12.2018 - 
+             -
+            Reading time ~1 Minute
+        </h6>
+
+        <p class="card-text"><p>Nó đơn giản chỉ là quản lí nhiều repo trong cùng một thư mục, commit mà không ảnh hưởng tới phần khác ví dụ</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">content <span style="color:#f92672">-&gt;</span> repo <span style="color:#66d9ef">XYZ</span>
+<span style="color:#f92672">--</span> blog <span style="color:#f92672">-&gt;</span> repo A
+<span style="color:#f92672">--</span> website <span style="color:#f92672">-&gt;</span> repo B
+<span style="color:#f92672">--</span> mail <span style="color:#f92672">-&gt;</span> repo C</code></pre></div>
+
+<p>Bây giờ chỉ cần link repo tới thư mục tương ứng là có thể commit không ảnh hưởng gì đến repo chính</p>
+
+<p><code>git submodule add -b master git@github.com:&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git blog</code></p>
+</p>
+
+    </div>
+    <div class="card-footer">
+        <small class="text-muted">
+            
+                
+                
+                    
+                        <a href="/tags/#git" class="badge badge-secondary"><span>git</span></a>
+                    
+                
+            
+        </small>
+    </div>
+</div>
+</div>
+
+
+        </main><footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 col-md">
+                <h5>QuyenCV Blog</h5>
+                &copy; 2018                 
+            </div>
+            <div class="col-3 col-md">
+                <h5>&nbsp;</h5>
+                &nbsp;
+            </div>
+            <div class="col-3 col-md">
+                <h5>&nbsp;</h5>
+                &nbsp;
+            </div>
+            <div class="col-3 col-md">
+                <h5>Site</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="/categories/">Categories</a></li>
+                    <li><a class="text-muted" href="/tags/">Tags</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="/js/vendor.min.3e5871eaa50b3aed8dc727d7e11c94314c0672556c7b4f2bd0dbf8dd0c00051f.js"></script>
+
+
+</body>
+</html>
