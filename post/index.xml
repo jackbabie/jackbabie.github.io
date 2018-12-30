@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on QuyenCV Blog</title>
+    <link>http://example.org/post/</link>
+    <description>Recent content in Posts on QuyenCV Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Dec 2018 12:16:05 +0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tạo site với Hugo nhanh lắm</title>
+      <link>http://example.org/post/tao-site-voi-hugo/</link>
+      <pubDate>Sun, 30 Dec 2018 12:16:05 +0700</pubDate>
+      
+      <guid>http://example.org/post/tao-site-voi-hugo/</guid>
+      <description>Cài client tool hugo Mình xài mac nên cài khá là dễ: chỉ cần chạy brew install hugo thế là xong, nhưng mà cái này chạy hơi lâu một chút, chậm hơn so với gem jekyll, nói chung mình phải đợi cả mấy phút ấy.
+ Tạo site Ở đây mình sẽ dùng tool vừa cài và tạo một site mới có cấu trúc kiểu static content Chạy lệnh này hugo new site jackbabie.</description>
+    </item>
+    
+    <item>
+      <title>Oaoa</title>
+      <link>http://example.org/post/oaoa/</link>
+      <pubDate>Sun, 30 Dec 2018 12:04:58 +0700</pubDate>
+      
+      <guid>http://example.org/post/oaoa/</guid>
+      <description>Hello Oaoaoa.. đây là commit đầu tiên mà thằng e code cùng mình nghĩ ra, kể ra cũng thông minh và sáng tạo ấy chứ</description>
+    </item>
+    
+  </channel>
+</rss>
