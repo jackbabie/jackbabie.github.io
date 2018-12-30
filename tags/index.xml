@@ -29,5 +29,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Life</title>
+      <link>http://example.org/tags/life/</link>
+      <pubDate>Sun, 30 Dec 2018 20:45:01 +0700</pubDate>
+      
+      <guid>http://example.org/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>http://example.org/tags/video/</link>
+      <pubDate>Sun, 30 Dec 2018 20:45:01 +0700</pubDate>
+      
+      <guid>http://example.org/tags/video/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

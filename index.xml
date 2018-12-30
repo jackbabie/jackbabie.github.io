@@ -6,10 +6,19 @@
     <description>Recent content on QuyenCV Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Dec 2018 12:16:05 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 30 Dec 2018 20:45:01 +0700</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Xem Cuộc Sống Miền Núi</title>
+      <link>http://example.org/post/xem-cuoc-song-mien-nui/</link>
+      <pubDate>Sun, 30 Dec 2018 20:45:01 +0700</pubDate>
+      
+      <guid>http://example.org/post/xem-cuoc-song-mien-nui/</guid>
+      <description>Đây là loạt video xoay quanh cuộc sống của anh chàng người miền núi và cậu bạn của mình. Nói về những trải nghiệm hàng ngày, đi rừng, những món ăn miền núi. Những ngày ốm cảm thấy mệt mỏi chán ăn, tự nhiên tình cờ tìm thấy series này. Xem cũng có nhiều cái hay, có cái đã từng trải nghiệm, có cái mới&amp;hellip; Hơn thế nữa tự nhiên có chút động lực để cố gắng sống nhiều hơn.</description>
+    </item>
     
     <item>
       <title>Tạo site với Hugo nhanh lắm</title>
