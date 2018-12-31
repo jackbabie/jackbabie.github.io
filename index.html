@@ -19,8 +19,8 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2018",
-        "datePublished": "2018-12-30 20:45:01 +0700 ICT",
-        "dateModified" : "2018-12-30 20:45:01 +0700 ICT",
+        "datePublished": "2018-12-31 16:57:40 +0700 ICT",
+        "dateModified" : "2018-12-31 16:57:40 +0700 ICT",
         "url" : "/",
         "wordCount" : "0",
         "keywords" : [ "Blog" ]
@@ -40,7 +40,7 @@
 <meta property="og:description" content="Text about the site" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://example.org/" />
-<meta property="og:updated_time" content="2018-12-30T20:45:01&#43;07:00"/>
+<meta property="og:updated_time" content="2018-12-31T16:57:40&#43;07:00"/>
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="QuyenCV Blog"/>
@@ -81,6 +81,43 @@
     
         <div class="card-columns">
             
+
+
+<div class="card">
+    
+    <div class="card-body">
+        <h1 class="card-title"><a href="/post/error-deploy-git-ssh/">Error Deploy Git Ssh</a></h1>
+        <h6 class="card-subtitle mb-2 text-muted">
+            31.12.2018 - 
+            
+        </h6>
+        
+        
+            <p class="card-text">Vì trên máy sẽ cài đặt nhiều key ssh để deploy cũng như setup git, nên có trường hợp bị lẫn lộn và không deploy được.
+Giải pháp: Check lại xem ssh đang dùng key nào và add lại key ssh cho đúng với các bước sau:
+ssh -T git@github.com : Check xem nó đang dùng ssh key nào
+ssh-add -l : show các ssh key
+eval &quot;$(ssh-agent -s)&quot; : stop hết các pid đang chạy</p>
+            <a href="/post/error-deploy-git-ssh/" class="card-link">Read more&hellip;</a> (~1 Min.)
+        
+
+    </div>
+    <div class="card-footer">
+        <small class="text-muted">
+            
+                
+                
+                    
+                        <a href="/tags/#git" class="badge badge-secondary"><span>git</span></a>
+                    
+                        <a href="/tags/#ssh" class="badge badge-secondary"><span>ssh</span></a>
+                    
+                
+            
+        </small>
+    </div>
+</div>
+
 
 
 <div class="card">

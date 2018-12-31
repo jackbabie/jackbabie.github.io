@@ -8,10 +8,10 @@
              "@type": "WebPage",
              "@id": "http://example.org/"
         },
-        "articleSection" : "tags",
-        "name" : "Tags",
-        "headline" : "Tags",
-        "description" : "Text about the site""
+        "articleSection" : "post",
+        "name" : "Error Deploy Git Ssh",
+        "headline" : "Error Deploy Git Ssh",
+        "description" : "Error with deploy with ssh &#43; git""
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -21,30 +21,40 @@
         "copyrightYear" : "2018",
         "datePublished": "2018-12-31 16:57:40 +0700 ICT",
         "dateModified" : "2018-12-31 16:57:40 +0700 ICT",
-        "url" : "/tags/",
-        "wordCount" : "0",
-        "keywords" : [ "Blog" ]
+        "url" : "/post/error-deploy-git-ssh/",
+        "wordCount" : "86",
+        "keywords" : [ "git","ssh","Blog" ]
     }
 </script>
-<title>QuyenCV Blog</title><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>
+    Error Deploy Git Ssh &ndash; QuyenCV Blog
+</title><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="icon" href="favicon.ico">
 
 
-<meta itemprop="name" content="Tags">
-<meta itemprop="description" content="Text about the site">
+<meta itemprop="name" content="Error Deploy Git Ssh">
+<meta itemprop="description" content="Error with deploy with ssh &#43; git">
 
 
-<meta property="og:title" content="Tags" />
-<meta property="og:description" content="Text about the site" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://example.org/tags/" />
-<meta property="og:updated_time" content="2018-12-31T16:57:40&#43;07:00"/>
+<meta itemprop="datePublished" content="2018-12-31T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-12-31T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="86">
+
+
+
+<meta itemprop="keywords" content="git,ssh," />
+
+<meta property="og:title" content="Error Deploy Git Ssh" />
+<meta property="og:description" content="Error with deploy with ssh &#43; git" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/post/error-deploy-git-ssh/" /><meta property="article:published_time" content="2018-12-31T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-12-31T00:00:00&#43;00:00"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="Text about the site"/>
+<meta name="twitter:title" content="Error Deploy Git Ssh"/>
+<meta name="twitter:description" content="Error with deploy with ssh &#43; git"/>
 
 
 <link rel="alternate" href="http://example.org/index.xml" type="application/rss+xml" title="QuyenCV Blog"/>
@@ -75,61 +85,49 @@
 </nav>
 <main role="main">
 
-<div class="container mt-3 mb-3">
-    <h1>Tags</h1>
+    <div class="container mt-3 mb-3">
 
-    
-        <a href="#git" class="badge badge-primary"><span>git</span> <span class="badge badge-light">3</span></a>
-    
-        <a href="#hugo" class="badge badge-primary"><span>hugo</span> <span class="badge badge-light">1</span></a>
-    
-        <a href="#life" class="badge badge-primary"><span>life</span> <span class="badge badge-light">1</span></a>
-    
-        <a href="#ssh" class="badge badge-primary"><span>ssh</span> <span class="badge badge-light">1</span></a>
-    
-        <a href="#video" class="badge badge-primary"><span>video</span> <span class="badge badge-light">1</span></a>
-    
-    
-    
-        <h2 id="git">git</h2>
-        <ul>
+
+<div class="card">
+
+    <div class="card-body">
+        <h1 class="card-title"><a href="/post/error-deploy-git-ssh/">Error Deploy Git Ssh</a></h1>
+        <h6 class="card-subtitle mb-2 text-muted">
+            31.12.2018 - 
+             -
+            Reading time ~1 Minute
+        </h6>
+
+        <p class="card-text"><p>Vì trên máy sẽ cài đặt nhiều key ssh để deploy cũng như setup git, nên có trường hợp bị lẫn lộn và không deploy được.</p>
+
+<p>Giải pháp:
+Check lại xem ssh đang dùng key nào và add lại key ssh cho đúng với các bước sau:</p>
+
+<p><code>ssh -T git@github.com</code> : Check xem nó đang dùng ssh key nào</p>
+
+<p><code>ssh-add -l</code> : show các ssh key</p>
+
+<p><code>eval &quot;$(ssh-agent -s)&quot;</code> : stop hết các pid đang chạy</p>
+
+<p><code>ssh-add your_key</code> : add lại key bạn dùng để deploy</p>
+</p>
+
+    </div>
+    <div class="card-footer">
+        <small class="text-muted">
             
-                <li><a href="/post/error-deploy-git-ssh/" title="Error Deploy Git Ssh">Error Deploy Git Ssh</a></li>
+                
+                
+                    
+                        <a href="/tags/#git" class="badge badge-secondary"><span>git</span></a>
+                    
+                        <a href="/tags/#ssh" class="badge badge-secondary"><span>ssh</span></a>
+                    
+                
             
-                <li><a href="/post/tao-site-voi-hugo/" title="Tạo site với Hugo nhanh lắm">Tạo site với Hugo nhanh lắm</a></li>
-            
-                <li><a href="/post/git-submodule/" title="Git submodule là cái gì ?">Git submodule là cái gì ?</a></li>
-            
-        </ul>
-    
-        <h2 id="hugo">hugo</h2>
-        <ul>
-            
-                <li><a href="/post/tao-site-voi-hugo/" title="Tạo site với Hugo nhanh lắm">Tạo site với Hugo nhanh lắm</a></li>
-            
-        </ul>
-    
-        <h2 id="life">life</h2>
-        <ul>
-            
-                <li><a href="/post/xem-cuoc-song-mien-nui/" title="Xem Cuộc Sống Miền Núi">Xem Cuộc Sống Miền Núi</a></li>
-            
-        </ul>
-    
-        <h2 id="ssh">ssh</h2>
-        <ul>
-            
-                <li><a href="/post/error-deploy-git-ssh/" title="Error Deploy Git Ssh">Error Deploy Git Ssh</a></li>
-            
-        </ul>
-    
-        <h2 id="video">video</h2>
-        <ul>
-            
-                <li><a href="/post/xem-cuoc-song-mien-nui/" title="Xem Cuộc Sống Miền Núi">Xem Cuộc Sống Miền Núi</a></li>
-            
-        </ul>
-     
+        </small>
+    </div>
+</div>
 </div>
 
 

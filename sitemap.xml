@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/post/error-deploy-git-ssh/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/post/xem-cuoc-song-mien-nui/</loc>
     <lastmod>2018-12-30T20:45:01+07:00</lastmod>
   </url>
@@ -29,7 +34,7 @@
   
   <url>
     <loc>http://example.org/tags/git/</loc>
-    <lastmod>2018-12-30T12:16:05+07:00</lastmod>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,19 +52,25 @@
   
   <url>
     <loc>http://example.org/post/</loc>
-    <lastmod>2018-12-30T20:45:01+07:00</lastmod>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/</loc>
-    <lastmod>2018-12-30T20:45:01+07:00</lastmod>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ssh/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/tags/</loc>
-    <lastmod>2018-12-30T12:16:05+07:00</lastmod>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
