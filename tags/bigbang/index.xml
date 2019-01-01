@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bigbang on QuyenCV Blog</title>
+    <link>http://example.org/tags/bigbang/</link>
+    <description>Recent content in Bigbang on QuyenCV Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jan 2019 10:29:57 +0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/bigbang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Top Bài Hát Đang Nghe 1</title>
+      <link>http://example.org/post/top-bai-hat-dang-nghe-1/</link>
+      <pubDate>Tue, 01 Jan 2019 10:29:57 +0700</pubDate>
+      
+      <guid>http://example.org/post/top-bai-hat-dang-nghe-1/</guid>
+      <description>Một số bài này tình nghe thấy hay, nhạc cover bằng piano cũng hay nữa
+ TONIGHT - Bigbang
+ LET&amp;rsquo;S NOT FALL IN LOVE - Bigbang
+ SOBER - Bigbang
+ FICTION - Beast
+ TRAP - Henry
+  </description>
+    </item>
+    
+  </channel>
+</rss>

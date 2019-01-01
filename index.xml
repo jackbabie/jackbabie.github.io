@@ -6,10 +6,36 @@
     <description>Recent content on QuyenCV Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Dec 2018 16:57:40 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 10:29:57 +0700</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Top Bài Hát Đang Nghe 1</title>
+      <link>http://example.org/post/top-bai-hat-dang-nghe-1/</link>
+      <pubDate>Tue, 01 Jan 2019 10:29:57 +0700</pubDate>
+      
+      <guid>http://example.org/post/top-bai-hat-dang-nghe-1/</guid>
+      <description>Một số bài này tình nghe thấy hay, nhạc cover bằng piano cũng hay nữa
+ TONIGHT - Bigbang
+ LET&amp;rsquo;S NOT FALL IN LOVE - Bigbang
+ SOBER - Bigbang
+ FICTION - Beast
+ TRAP - Henry
+  </description>
+    </item>
+    
+    <item>
+      <title>Đón Năm Mới 2019</title>
+      <link>http://example.org/post/don-nam-moi-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:31:54 +0700</pubDate>
+      
+      <guid>http://example.org/post/don-nam-moi-2019/</guid>
+      <description>Cuộc sống của một thằng dev nhiều khi vui, nhiều khi buồn, nhiều khi chán như con gián, chả có gì thú vị cả. Bạn bè thì không có nhiều. Nhiều lúc chả biết đi đâu.
+Năm nay ngày cuôi cùng của năm đi cùng người thương ăn bò né, uống trà chanh nóng ở một quán hơi sang chảnh cạnh đường. Ngồi hóng gió mát quá đã.
+Đêm về đón khoảng khắc giao năm cũ và năm mới bằng một cốc mỳ ly.</description>
+    </item>
     
     <item>
       <title>Error Deploy Git Ssh</title>
