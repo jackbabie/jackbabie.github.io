@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/post/cai-tui/</loc>
+    <lastmod>2019-01-03T00:44:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/kiem-tien/</loc>
+    <lastmod>2019-01-01T22:54:51+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/post/top-bai-hat-dang-nghe-1/</loc>
     <lastmod>2019-01-01T10:29:57+07:00</lastmod>
   </url>
@@ -62,19 +72,19 @@
   
   <url>
     <loc>http://example.org/tags/life/</loc>
-    <lastmod>2019-01-01T00:31:54+07:00</lastmod>
+    <lastmod>2019-01-01T22:54:51+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/post/</loc>
-    <lastmod>2019-01-01T10:29:57+07:00</lastmod>
+    <lastmod>2019-01-03T00:44:46+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/</loc>
-    <lastmod>2019-01-01T10:29:57+07:00</lastmod>
+    <lastmod>2019-01-03T00:44:46+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -87,6 +97,12 @@
   <url>
     <loc>http://example.org/tags/ssh/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/story/</loc>
+    <lastmod>2019-01-03T00:44:46+07:00</lastmod>
     <priority>0</priority>
   </url>
   

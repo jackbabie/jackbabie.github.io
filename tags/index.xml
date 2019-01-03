@@ -41,7 +41,7 @@
     <item>
       <title>Life</title>
       <link>http://example.org/tags/life/</link>
-      <pubDate>Tue, 01 Jan 2019 00:31:54 +0700</pubDate>
+      <pubDate>Tue, 01 Jan 2019 22:54:51 +0700</pubDate>
       
       <guid>http://example.org/tags/life/</guid>
       <description></description>
@@ -62,6 +62,15 @@
       <pubDate>Mon, 31 Dec 2018 16:57:40 +0700</pubDate>
       
       <guid>http://example.org/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story</title>
+      <link>http://example.org/tags/story/</link>
+      <pubDate>Thu, 03 Jan 2019 00:44:46 +0700</pubDate>
+      
+      <guid>http://example.org/tags/story/</guid>
       <description></description>
     </item>
     
