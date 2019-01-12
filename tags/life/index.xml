@@ -6,10 +6,19 @@
     <description>Recent content in Life on QuyenCV Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jan 2019 22:54:51 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jan 2019 00:44:46 +0700</lastBuildDate>
     
 	<atom:link href="http://example.org/tags/life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cái túi</title>
+      <link>http://example.org/post/cai-tui/</link>
+      <pubDate>Thu, 03 Jan 2019 00:44:46 +0700</pubDate>
+      
+      <guid>http://example.org/post/cai-tui/</guid>
+      <description>Hôm nay tự nhiên cục cứt lại mua tặng mình cái túi&amp;hellip; Lại còn dặn mình là con trai phải kiếm thật nhiều tiền thì mới lo được cho vợ con, mới có cuộc sống dễ dàng&amp;hellip;</description>
+    </item>
     
     <item>
       <title>Kiếm Tiền</title>
@@ -21,6 +30,21 @@
 Chúng ta cần tự khuyên mình không được buông bỏ, không được gục ngã, bởi trên còn có cha mẹ già, dưới còn có con thơ.
 Chúng ta càng không cho phép bản thân được ốm, bởi khi ta ốm, sẽ chẳng có ai chăm sóc.
 Chúng ta cũng không dám kêu mệt, bởi chẳng ai có thể sẻ chia.</description>
+    </item>
+    
+    <item>
+      <title>Top Bài Hát Đang Nghe 1</title>
+      <link>http://example.org/post/top-bai-hat-dang-nghe-1/</link>
+      <pubDate>Tue, 01 Jan 2019 10:29:57 +0700</pubDate>
+      
+      <guid>http://example.org/post/top-bai-hat-dang-nghe-1/</guid>
+      <description>Một số bài này tình nghe thấy hay, nhạc cover bằng piano cũng hay nữa
+ TONIGHT - Bigbang
+ LET&amp;rsquo;S NOT FALL IN LOVE - Bigbang
+ SOBER - Bigbang
+ FICTION - Beast
+ TRAP - Henry
+  </description>
     </item>
     
     <item>
@@ -41,6 +65,19 @@ Năm nay ngày cuôi cùng của năm đi cùng người thương ăn bò né, u
       
       <guid>http://example.org/post/xem-cuoc-song-mien-nui/</guid>
       <description>Đây là loạt video xoay quanh cuộc sống của anh chàng người miền núi và cậu bạn của mình. Nói về những trải nghiệm hàng ngày, đi rừng, những món ăn miền núi. Những ngày ốm cảm thấy mệt mỏi chán ăn, tự nhiên tình cờ tìm thấy series này. Xem cũng có nhiều cái hay, có cái đã từng trải nghiệm, có cái mới&amp;hellip; Hơn thế nữa tự nhiên có chút động lực để cố gắng sống nhiều hơn.</description>
+    </item>
+    
+    <item>
+      <title>Tạo site với Hugo nhanh lắm</title>
+      <link>http://example.org/post/tao-site-voi-hugo/</link>
+      <pubDate>Sun, 30 Dec 2018 12:16:05 +0700</pubDate>
+      
+      <guid>http://example.org/post/tao-site-voi-hugo/</guid>
+      <description>Cài client tool hugo Mình xài mac nên cài khá là dễ: chỉ cần chạy
+brew install hugo
+thế là xong, nhưng mà cái này chạy hơi lâu một chút, chậm hơn so với gem jekyll, nói chung mình phải đợi cả mấy phút ấy.
+Tạo site Ở đây mình sẽ dùng tool vừa cài và tạo một site mới có cấu trúc kiểu static content
+Chạy lệnh này</description>
     </item>
     
   </channel>
