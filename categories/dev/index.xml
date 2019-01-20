@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev on QuyenCV Blog</title>
+    <link>http://example.org/categories/dev/</link>
+    <description>Recent content in Dev on QuyenCV Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Jan 2019 13:15:09 +0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ssh to Linux From Mac</title>
+      <link>http://example.org/post/ssh-to-linux-from-mac/</link>
+      <pubDate>Sat, 12 Jan 2019 13:15:09 +0700</pubDate>
+      
+      <guid>http://example.org/post/ssh-to-linux-from-mac/</guid>
+      <description>Input: Macbook + Linux
+Setting:
+Check IP of Linux ip a (private ip)
+Creat a ssh key in Linux Add public key to Mac</description>
+    </item>
+    
+    <item>
+      <title>Youtube Channel For Developer</title>
+      <link>http://example.org/post/youtube-channel-developer/</link>
+      <pubDate>Sat, 05 Jan 2019 23:05:38 +0700</pubDate>
+      
+      <guid>http://example.org/post/youtube-channel-developer/</guid>
+      <description> Google developer channel https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw
+ Google chrome developer https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw
+  </description>
+    </item>
+    
+    <item>
+      <title>Error Deploy Git Ssh</title>
+      <link>http://example.org/post/error-deploy-git-ssh/</link>
+      <pubDate>Mon, 31 Dec 2018 16:57:40 +0700</pubDate>
+      
+      <guid>http://example.org/post/error-deploy-git-ssh/</guid>
+      <description>Vì trên máy sẽ cài đặt nhiều key ssh để deploy cũng như setup git, nên có trường hợp bị lẫn lộn và không deploy được.
+Giải pháp: Check lại xem ssh đang dùng key nào và add lại key ssh cho đúng với các bước sau:
+ssh -T git@github.com : Check xem nó đang dùng ssh key nào
+ssh-add -l : show các ssh key
+eval &amp;quot;$(ssh-agent -s)&amp;quot; : stop hết các pid đang chạy</description>
+    </item>
+    
+    <item>
+      <title>Tạo site với Hugo nhanh lắm</title>
+      <link>http://example.org/post/tao-site-voi-hugo/</link>
+      <pubDate>Sun, 30 Dec 2018 12:16:05 +0700</pubDate>
+      
+      <guid>http://example.org/post/tao-site-voi-hugo/</guid>
+      <description>Cài client tool hugo Mình xài mac nên cài khá là dễ: chỉ cần chạy
+brew install hugo
+thế là xong, nhưng mà cái này chạy hơi lâu một chút, chậm hơn so với gem jekyll, nói chung mình phải đợi cả mấy phút ấy.
+Tạo site Ở đây mình sẽ dùng tool vừa cài và tạo một site mới có cấu trúc kiểu static content
+Chạy lệnh này</description>
+    </item>
+    
+    <item>
+      <title>Git submodule là cái gì ?</title>
+      <link>http://example.org/post/git-submodule/</link>
+      <pubDate>Sun, 30 Dec 2018 12:04:58 +0700</pubDate>
+      
+      <guid>http://example.org/post/git-submodule/</guid>
+      <description>Nó đơn giản chỉ là quản lí nhiều repo trong cùng một thư mục, commit mà không ảnh hưởng tới phần khác ví dụ
+content -&amp;gt; repo XYZ -- blog -&amp;gt; repo A -- website -&amp;gt; repo B -- mail -&amp;gt; repo C Bây giờ chỉ cần link repo tới thư mục tương ứng là có thể commit không ảnh hưởng gì đến repo chính
+git submodule add -b master git@github.</description>
+    </item>
+    
+  </channel>
+</rss>
