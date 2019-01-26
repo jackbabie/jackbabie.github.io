@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photo on QuyenCV Blog</title>
+    <link>http://example.org/tags/photo/</link>
+    <description>Recent content in Photo on QuyenCV Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Jan 2019 15:53:56 +0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/photo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resize ảnh</title>
+      <link>http://example.org/post/resize-anh/</link>
+      <pubDate>Sat, 26 Jan 2019 15:53:56 +0700</pubDate>
+      
+      <guid>http://example.org/post/resize-anh/</guid>
+      <description>Trước đây trên window muốn resize ảnh hàng loạt thì phải cài một phần mềm khác vô máy. Nhưng trên Mac nó lại đơn giản hơn nhiều, chỉ cần xài tool Preview, chọn tất cả ảnh và adjust size. Khi chụp bằng máy ành, dung lượng thường khoảng 7-8 MB, nên mình thường resize lại khoảng 1080x&amp;hellip; Ảnh sau khi resize thì sẽ chỉ bị vỡ nếu zoom thật to, còn bình thường thì vẫn có thế chấp nhận được.</description>
+    </item>
+    
+  </channel>
+</rss>

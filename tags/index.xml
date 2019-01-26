@@ -57,6 +57,24 @@
     </item>
     
     <item>
+      <title>Photo</title>
+      <link>http://example.org/tags/photo/</link>
+      <pubDate>Sat, 26 Jan 2019 15:53:56 +0700</pubDate>
+      
+      <guid>http://example.org/tags/photo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resize</title>
+      <link>http://example.org/tags/resize/</link>
+      <pubDate>Sat, 26 Jan 2019 15:53:56 +0700</pubDate>
+      
+      <guid>http://example.org/tags/resize/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Song</title>
       <link>http://example.org/tags/song/</link>
       <pubDate>Tue, 01 Jan 2019 10:29:57 +0700</pubDate>

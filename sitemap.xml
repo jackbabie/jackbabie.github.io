@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/post/resize-anh/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/post/paracord-la-cai-gi/</loc>
     <lastmod>2019-01-20T00:00:00+00:00</lastmod>
   </url>
@@ -93,7 +98,7 @@
   
   <url>
     <loc>http://example.org/categories/life/</loc>
-    <lastmod>2019-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -110,14 +115,26 @@
   </url>
   
   <url>
+    <loc>http://example.org/tags/photo/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/post/</loc>
-    <lastmod>2019-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/</loc>
-    <lastmod>2019-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/resize/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
